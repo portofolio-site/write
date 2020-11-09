@@ -1,0 +1,382 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+  }
+
+main{
+  height:2000px;
+  width:1040px;
+  border:black;
+  margin:0 auto;
+}
+
+
+body{
+  font-size:15px;
+  font-family:Georgia;
+  line-height:1.8;
+}
+a{
+  text-decoration:none;
+  color:#444444;
+}
+
+ul{
+  list-style:none;
+}
+
+header{
+  height:152px;
+  margin-top:50px;
+}
+
+.container{
+  width:1040px;
+  margin:0 auto;
+  background-color:pink;
+}
+
+.header-left{
+  float:left;
+  display:inline;
+}
+
+.header-left h1{
+  font-size:36px;
+  line-height:48px;
+}
+
+.header-left p{
+  font-size:16px;
+}
+
+
+.header-right{
+
+  margin-left:50px;
+}
+
+.gnav{
+  padding-right:0 0 200px 0;
+}
+
+.gnav ul{
+  padding-right:200px;
+}
+
+.g-nav li{
+  float:left;
+  font-size:16,88px;
+  padding:0 15px;
+  position:relative;
+  padding-bottom:15px;
+}
+
+.gnav a{
+  padding-bottom:30px;
+}
+
+.g-nav li ul{
+  position:absolute;
+  top:45px;
+  left:-5px;
+  height:0;
+  visibility:hidden;
+}
+
+.g-nav li li{
+  width:200px;
+  border:solid 1px #f0f0f0;
+}
+
+.g-nav li:hover ul li{
+  visibility:visible;
+}
+
+.pe{
+
+}
+
+.header-right{
+  padding-top:48px;
+  float:left;
+  padding-left:50px;
+}
+
+.header-right li{
+  padding:0 10px;
+  opacity:1;
+  text-align:center;
+}
+
+.fas{
+  margin-left:10px;
+}
+
+.header-right li:hover{
+  opacity:0.5;
+}
+
+.search-wrapper{
+  float:right;
+  height:40px;
+
+  padding-top:40px;
+
+
+}
+
+.search{
+  height:20px;
+  width:0px;
+}
+
+.search{
+  background:url(search_119641.png) no-repeat;
+  background-size:24px 24px;
+  padding-left:25px;
+}
+
+.search:focus{
+  height:20px;
+  width:200px;
+}
+
+.photo{
+  width:1000px;
+  height:400px;
+}
+
+
+
+.bunsyou{
+  font-size:25px;
+  opacity:0.7;
+}
+
+.container-three{
+  margin-top:200px;
+}
+
+.container-four h3{
+  float:left;
+}
+
+.container-five{
+
+margin-left:230px;
+
+}
+
+.container-four{
+margin-top:100px;
+
+ background-color:pink;
+}
+
+.b{
+  opacity:0.7;
+
+}
+
+.main-w{
+  width:1200px
+  padding:0 0 100px 50px;
+}
+
+.page-list li{
+  float:left;
+  font-size:16px 8px;
+  display:inline-block;
+  border:1px solid#ccc;
+  padding:8px 18px;
+  margin-left:10px;
+}
+
+.page-list{
+  margin-left:300px;
+  padding-top:30px;
+}
+
+.jon{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+}
+
+.profile-top{
+  float:left;
+}
+
+.doe{
+  padding-top:30px;
+
+}
+
+.fab fa-twitter{
+  width:30px;
+  height:30px;
+}
+
+.profile{
+  width:300px;
+  float:left;
+
+  margin-right:20px;
+}
+
+.profile-a i{
+  width:30px;
+  height:30px;
+  display:inline-block;
+}
+
+
+.doe{
+  font-size:18px;
+}
+
+.border{
+  border-bottom:1px solid#ccc;
+  padding-bottom:100px;
+}
+
+.footer-right{
+  width:300px;
+  float:left;
+  margin-right:20px;
+}
+
+.saikin-container{
+  width:100px;
+  float:left;
+
+}
+
+.saikin-container a:hover{
+  opacity:0.7;
+}
+
+.kate{
+  float:right;
+
+}
+
+.bo{
+  
+  height:270px;
+  border-bottom:1px solid#ccc;
+}
+
+footer{
+  height:100px;
+  width:1000px;
+
+  margin:0 auto;
+}
+
+.footer-title p{
+  float:left;
+}
+
+.footer-icon a{
+  float:left;
+}
